@@ -93,6 +93,17 @@ git checkout donmek-istedigkmiz-versiyonun-hash-degeri -- .
 # versiyona dondurur. ama sadece bir dosya dondurmek istiyorsak
 # nokta yerine dosyaadini yaziyoruz.(denene.py gibi) 
 
+## Github'da repo olusturulur.
+## Sonra git clone ile yerele kopyalanir.
+## git init ile buraya git vcs kurlur.
+## Degisiklikler burada yapilir sknra push ile gonderilir.
+git clone https://github.com/miskin1702/git-notlarim
+cd git-notlarim
+git init
+Degisiklikler yapilir dosyalar kopyalanir veya editlenir.
+git push -u https://github.com/miskin1702/git-notlarim master
+
+
 ## GITHUB ile yerel git repomuzu eşitleme
 ## Once repo adresi kopyalanir.
 ## Sknra esitlenecek proje klasorune gidilir.

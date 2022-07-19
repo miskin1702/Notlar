@@ -19,7 +19,7 @@ Proje klasörü yerelde yaratılır, sonra uzak repoya gönderilir.
 ```
 git init
 ```
-** Repodan - Yerele 
+** Repodan - Yerele **
 Uzak repodan yerele tüm proje kopyalanır. Üzerinde direk değişikliğe
 başlanılabilir.
 ```

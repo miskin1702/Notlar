@@ -14,12 +14,12 @@ git config --global user.name "Name Surname"
 ```
 
 ##### Proje Başlatmak
-** Yerelden - Repoya 
+** Yerelden - Repoya **
 Proje klasörü yerelde yaratılır, sonra uzak repoya gönderilir.
 ```
 git init
 ```
-** Repodan - Yerele 
+** Repodan - Yerele **
 Uzak repodan yerele tüm proje kopyalanır. Üzerinde direk değişikliğe
 başlanılabilir.
 ```

@@ -14,7 +14,7 @@ git config --global user.name "Name Surname"
 ```
 
 ##### Proje Başlatmak
-** Yerelden - Repoya 
+** Yerelden - Repoya **
 Proje klasörü yerelde yaratılır, sonra uzak repoya gönderilir.
 ```
 git init
@@ -46,6 +46,10 @@ programıdır.
 ```
 git commit -m "Değişklik Etiketi"
 ```
+##### Geçmişe Bak
+Bir dosyada veya tüm dosyalarda değişiklikleri görmek için `git diff [dosya-adı]`
+Dizin ile Stage arasındaki farka bakmak için `git status`
+Commit geçmişine bakmak için `git log`
 
 
 ##### Değişiklikleri Geri Alma

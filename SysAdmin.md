@@ -106,7 +106,25 @@ mkfs.ext4 /dev/grup_lvm/LVM_ADİ 				# LVM de Filesystemimizi de oluşturduk.
 lvextend -L+5G /dev/grup_lvm/LVM_ADİ			# LVM'yi 5 GB büyüttük.
 ```
 
+### Locale Settings
 
+Dil değiştirme
+```
+locale
+localectl
+localectl set-locale LANG=en_US.utf8
+localectl 
+```
+
+
+### Tarball Kurma
+indirilen .tar uzantılı dosyayı derleyip kurma
+
+```
+tar -zxvf blabla.tar.gz
+cd blabla
+make 
+```
 
 
 

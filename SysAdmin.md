@@ -125,6 +125,11 @@ tar -zxvf blabla.tar.gz
 cd blabla
 make 
 ```
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> b716d3a6929364c8545fd45e527f43b6febc2435
 
 
 

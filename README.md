@@ -57,7 +57,14 @@ Commit geçmişine bakmak için `git log`
 Dizinde silinen veya değiştirilen ama Stage'e eklenmeyen 
 değişiklikleri geri almak için.(İlgili dosya deneme.py olsun.)
 ```
-git checkout -- deneme.py
+# To undo your local changes in a certain file...
+git restore my-file.txt
+
+# To unstage a file, but leave its actual changes untouched...
+git restore --staged my-file.txt
+
+# To undo all of the local changes in your working copy (be careful!)...
+git restore .
 ```
 
 

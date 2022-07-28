@@ -1,5 +1,6 @@
 ### Kişisel Git(VCS) Kullanım Notları
 
+
 ##### Linux Git Kurulumu
 ```bash
 sudo apt install git
@@ -57,4 +58,26 @@ Dizinde silinen veya değiştirilen ama Stage'e eklenmeyen
 değişiklikleri geri almak için.(İlgili dosya deneme.py olsun.)
 ```
 git checkout -- deneme.py
+```
+
+
+##### Branch işlemleri
+Öncelikle uzak repo yerele `git clone repo_url` ile kopyalanır. 
+`cd repo` ile klasör içerisine girilir. Switch ie branc deiştirlir,
+yoksa oluşturulur. Push ile branc uzak repoya gönderilir. 
+```
+git switch -c new_branch
+git push --set-upstream origin new_branch
+```
+
+
+##### Bazı Komutlar
+
+Bazı
+```
+git config -l	# Configleri görüntüle
+git reflog		# Geçmiş aktiviteleri göster
+git remote -v	# Uzak sunucu ayarları
+git branch -vva	# Tüm Branchlar ve detaylarını göster
+
 ```
